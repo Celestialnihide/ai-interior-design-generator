@@ -1,0 +1,1 @@
+"""Core host: contracts, registry, loader, host orchestration."""
