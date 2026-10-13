@@ -1,0 +1,57 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller / Nuitka / cx_Freeze desktop bundles
+*.spec.bak
+dist_win/
+build_win/
+*.exe
+*.msi
+
+# AI model weights & caches (never commit these)
+models/**/*.onnx
+models/**/*.pt
+models/**/*.safetensors
+models/**/*.gguf
+.cache/huggingface/
+.cache/torch/
+.cache/diffusers/
+
+# Generated renders & project files
+renders/
+exports/
+projects/*.iidproj
+*.tmp.png
+*.tmp.jpg
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local secrets
+.env
+.env.local
+config/local.toml
+config/secrets.toml
